@@ -1,0 +1,275 @@
+@media screen {
+	body {
+		font-family: 'Open Sans', sans-serif;
+		color: #555;
+		font-weight: 300;
+		font-size: 1em;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: #0179be;
+	}
+
+	header {
+		background-image: url('../images/resume_bg1.jpg');
+		background-size: cover;
+		min-height: 440px;
+		background-position: center;
+		border-bottom: 3px solid #0179be;
+	}
+
+	a {
+		text-decoration: none !important;
+		color: inherit;
+	}
+
+	td > table {
+		width: 100%;
+	}
+
+	header.page{
+		min-height: 200px;
+	}
+
+	.btn:active,
+	.btn:focus,
+	.btn.active {
+	  background-image: none;
+	  outline: 0;
+	  -webkit-box-shadow: none;
+	          box-shadow: none;
+	}
+	.nopadding {
+	   padding: 0 !important;
+	   margin: 0 !important;
+	}
+	.menu {
+		background-color: #0179be;
+		height: 80px;
+		color: #fff;
+		display: table;
+	}
+	.logo {
+		padding: 16px 30px;
+		font-size: 2em;
+		text-align: center;
+	}
+	.logo i {
+		margin: 0px 20px;
+		font-size: 1.5em;
+	}
+	.menu ul {
+		margin: 24px;
+	}
+	.menu li {
+		display: inline-block;
+		margin: 0px 10px;
+
+	}
+	.menu li > a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.highlight-s {
+		display: block;
+		font-size: 3.6em;
+		margin-top: 60px;
+		font-weight: 300;
+	}
+
+	.highlight-resume {
+		display: block;
+		margin-top: 60px;
+		font-weight: 300;
+	}
+
+	.highlight-resume > span {
+		font-size: 3.6em;
+	}
+
+	.highlight-resume > a {
+		text-decoration: none;
+		color: #555;
+	}
+	.full-width {
+		width: 100%;
+	}
+	.footermargin {
+		margin-top: 20px;
+	}
+	.line-bt {
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px #ccc dashed;
+	}
+	.margin-30 {
+		margin: 30px auto;
+	}
+	.p80 {
+		width: 78% !important;
+		margin: 0 1%;
+	}
+	.p20 {
+		width: 18% !important;
+		margin: 0 1%;
+	}
+	#loader {
+		background-color: #0179be;
+		width: 100%;
+		height: 100%;
+		display: block;
+		position: fixed;
+		z-index: 100;
+	}
+	#loader > .logo {
+		color: #fff;
+		width: 50%;
+		margin: 350px auto;
+		font-size: 3em;
+	}
+
+	.loader {
+		background-color: rgba(255,255,255,0.95);
+		top:0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		display: none;
+		position: absolute;
+		z-index: 100;
+	}
+	.loader > .logo {
+		color: #0179be;
+		width: 20%;
+		margin: 150px auto;
+		font-size: 3em;
+		min-width: 480px;
+	}
+
+	.login {
+		margin: 100px auto;	
+		background-color: rgba(255,255,255,0.9);
+		padding: 40px;	
+	}
+	.user-card {
+		border: 1px #ccc solid;
+		border-radius: 5px;
+		padding: 20px;	
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	.user-card img {
+		width: 100px;
+		max-width: 80%;
+		border-radius: 50%;
+		margin-right: 20px
+	}
+	.user-card h5 {
+		word-spacing: 0px;
+		margin-top: 20px;	
+	}
+	.rel {
+		position: relative;
+	}
+	.badge {
+		font-weight: 300;
+	}
+	.border-bottom {
+		padding-bottom: 20px;
+		border-bottom: 1px #ccc dashed;
+	}
+	.skills {
+		margin: 20px 0px;
+	}
+	.card-deck > div {
+		margin-bottom: 10px;
+	}
+	.filters > div > h4 {
+		margin-right: 30px;
+	}
+	.bottom-blue {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		border-bottom: 2px solid #0179be;
+	}
+	#template-list {
+		display: none;
+	}
+	.table td {
+	    vertical-align: middle;
+	}
+	#add-new-template {
+		margin: 0px auto 20px;
+	}
+	#edit-other, #edit-skills, #edit-lang, #edit-work, #edit-education {
+		display: none;
+		position: relative;
+	}
+	#edit-profile {
+		position: relative;
+	}
+	.loading-avatar{
+		max-width: 100px;
+		border-radius: 50%;
+		float: inherit;
+	  	clear: both;
+	  	margin: 10px;
+	}
+	.btn-download {
+		float: right;
+	}
+	#addEducation, #addWork {
+		display: none;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		z-index: 10;
+		flex-wrap: wrap;
+	}
+	#addEducation h4, #addWork h4 {
+		display: inline;
+	}
+	.container.rel {
+		min-height: 600px;
+	}
+	.job-row {
+		border-bottom: 1px #ccc dashed;
+	}
+	.t-d {
+		width: 10%;
+	}
+	.t-s {
+		width: 26.66%;
+	}
+	.table td, .table th{
+		border-top: 0px;
+	}
+	.job-row > td {
+		padding: 0px;
+	}
+	.titleh3 {
+		text-align: center;
+		margin: 20px auto;
+	}
+	.main-image {
+		background-size: cover;
+		width: 150px;
+		min-width: 150px;
+		min-height: 150px;
+		border-radius: 50%;
+		margin: 20px auto;
+	}
+	.header-resume {
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+  .hidden-sm-down {
+    display: none;
+  }
+  .btn-download {
+  	float: inherit;
+  }
+}
